@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--Tady to seobjevuje na liště v prohlížeči-->
+  <title>Kalendář-Canistherapy needed by An</title>
+
+  <!--odkaz na dokument s CSS-->
+
+  <link rel="stylesheet" type="text/css" href="css/styly.css">
+  <link rel="stylesheet" type="text/css" href="css/kalendarstyl.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/70a3c05b29.js"></script>
+
+</head>
+
+
+
+<body>
+  <div class="content">
+    <!--tady by měla být hlavička obsahující logo a popis stránky-->
+    <header class="bcg-img">
+      <div class="up-header">
+
+
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="description-header">
+          <h1>Canistherapy needed</h1>
+          <p>Vše co potřebujete k vašemu psychickému zdraví je možná pes.</p>
+        </div>
+      </div>
+      <!--menu obsahující tlačítka, která po najetí mění barvu
+        celkem 4stránky Úvod, galerie, kontakty, kalendář-->
+      <!--změna barvyse dělá v CSS (hover) viz jak psát web-->
+
+      <nav>
+        <ul class=navbar-list>
+          <li><a href="uvod.html">Úvod</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="kontakty.html">Kontakty</a></li>
+          <li><a href="kalendar.html">Kalendář</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!--tělo s popisem-->
+    <main>
+      <div class="kalendar" style="overflow-x:auto;">
+
+          <table id="calendar">
+            <caption>Leden 2021</caption>
+            <tr class="weekdays">
+              <th scope="col">pondělí</th>
+              <th scope="col">úterý</th>
+              <th scope="col">středa</th>
+              <th scope="col">čtvrtek</th>
+              <th scope="col">pátek</th>
+              <th scope="col">sobota</th>
+              <th scope="col">neděle</th>
+            </tr>
+            <tr>
+              <td class="prosinec">28</td>
+              <td class="prosinec">29</td>
+              <td class="prosinec">30</td>
+              <td class="prosinec">31</td>
+              <td class="leden">1</td>
+              <td class="vikend">2</td>
+              <td class="vikend">3</td>
+            </tr>
+            <tr>
+              <td class="leden">4</td>
+              <td class="leden">5</td>
+              <td class="leden">6</td>
+              <td class="leden">7</td>
+              <td class="leden">8</td>
+              <td class="vikend">9</td>
+              <td class="vikend">10</td>
+            </tr>
+            <tr>
+              <td class="leden">11</td>
+              <td class="leden">12</td>
+              <td class="leden">13</td>
+              <td class="leden">14</td>
+              <td class="leden">15</td>
+              <td class="vikend">16</td>
+              <td class="vikend">17</td>
+            </tr>
+            <tr>
+              <td class="leden">18</td>
+              <td class="leden">19</td>
+              <td class="leden">20</td>
+              <td class="leden">21</td>
+              <td class="leden">22</td>
+              <td class="vikend">23</td>
+              <td>
+                <div class="vikend">24</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="leden">25</td>
+              <td class="leden">26</td>
+              <td class="leden">27</td>
+              <td class="leden">28</td>
+              <td class="leden">29</td>
+              <td class="vikend">30</td>
+              <td class="vikend">31</td>
+            </tr>
+          </table>
+      </div>
+
+    </main>
+
+    <footer>
+      <!--Patička obsahuje kontakt, adresu a logo s 50% průhledností,
+        Já bych ještě chtěla zkusit přidat odkaz na fb a spol.. třeba nakreslit jednoduché ikony s proklikem na mé sítě :) -->
+
+      <!--a nakonec copyright-->
+      <div class="footer-row">
+
+        <div class="footer-logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+
+        <div class="foot-contact">
+          <p><span>kontakt:</span><br>
+            fake@mail.cz
+          </p>
+          <div class="vl"></div>
+          <p><span>adresa:</span><br>
+            Severojižní 123<br>
+            Praha 1<br>
+            100 00<br>
+          </p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fab fa-twitter icons-footer"></i>
+        <i class="fab fa-facebook-f icons-footer"></i>
+        <i class="fab fa-instagram icons-footer"></i>
+        <i class="fas fa-envelope icons-footer"></i>
+      </div>
+      <div class="copyright">
+        &copy;2020 Canistherapy needed
+      </div>
+
+
+    </footer>
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>

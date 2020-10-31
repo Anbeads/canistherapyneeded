@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--Tady to seobjevuje na liště v prohlížeči-->
+  <title>Galerie</title>
+
+  <!--odkaz na dokument s CSS-->
+
+  <link rel="stylesheet" type="text/css" href="css/styly.css">
+  <link rel="stylesheet" type="text/css" href="css/galeriestyl.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/70a3c05b29.js"></script>
+
+</head>
+
+
+
+<body>
+  <div class="content">
+    <!--tady by měla být hlavička obsahující logo a popis stránky-->
+    <header class="bcg-img">
+      <div class="up-header">
+
+
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="description-header">
+          <h1>Canistherapy needed</h1>
+          <p>Vše co potřebujete k vašemu psychickému zdraví je možná pes.</p>
+        </div>
+      </div>
+      <!--menu obsahující tlačítka, která po najetí mění barvu
+        celkem 4stránky Úvod, galerie, kontakty, kalendář-->
+      <!--změna barvyse dělá v CSS (hover) viz jak psát web-->
+
+      <nav>
+        <ul class=navbar-list>
+          <li><a href="uvod.html">Úvod</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="kontakty.html">Kontakty</a></li>
+          <li><a href="kalendar.html">Kalendář</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!--tělo s popisem-->
+    <main>
+      <section class="galeryheader">
+                    <h2>Galerie</h2>
+      <p>Look at that doge!</p>
+</section>
+      <div class="galeryflexcontainer">
+        <div class="galerycolumn">
+          <a href="images/rox1.jpg" target="_blank"><img src="images/rox1.jpg" alt="pes"></a>
+          <a href="images/rox2.jpg" target="_blank"><img src="images/rox2.jpg" alt="pes"></a>
+          <a href="images/rox3.jpg" target="_blank"><img src="images/rox3.jpg" alt="pes"></a>
+        </div>
+        <div class="galerycolumn">
+          <a href="images/rox4.jpg" target="_blank"><img src="images/rox4.jpg" alt="pes"></a>
+          <a href="images/rox5.jpg" target="_blank"><img src="images/rox5.jpg" alt="pes"></a>
+          <a href="images/rox6.jpg" target="_blank"><img src="images/rox6.jpg" alt="pes"></a>
+          <a href="images/rox10.jpg" target="_blank"><img src="images/rox10.jpg" alt="pes"></a>
+        </div>
+        <div class="galerycolumn">
+          <a href="images/rox9.jpg" target="_blank"><img src="images/rox9.jpg" alt="pes"></a>
+          <a href="images/rox7.jpg" target="_blank"><img src="images/rox7.jpg" alt="pes"></a>
+          <a href="images/rox8.jpg" target="_blank"><img src="images/rox8.jpg" alt="pes"></a>
+          <a href="images/rox11.jpg" target="_blank"><img src="images/rox11.jpg" alt="pes"></a>
+        </div>
+
+      </div>
+
+      <!-- <div class="galerybox">
+  <a href="images/rox1.jpg" target="_blank"><img src="images/rox1.jpg" alt="pes"></a>
+  <a href="images/rox2.jpg" target="_blank"><img src="images/rox2.jpg" alt="pes"></a>
+  <a href="images/rox3.jpg" target="_blank"><img src="images/rox3.jpg" alt="pes"></a>
+  <a href="images/rox4.jpg" target="_blank"><img src="images/rox4.jpg" alt="pes"></a>
+  <a href="images/rox5.jpg" target="_blank"><img src="images/rox5.jpg" alt="pes"></a>
+  <a href="images/rox6.jpg" target="_blank"><img src="images/rox6.jpg" alt="pes"></a>
+  <a href="images/rox9.jpg" target="_blank"><img src="images/rox9.jpg" alt="pes"></a>
+  <a href="images/rox7.jpg" target="_blank"><img src="images/rox7.jpg" alt="pes"></a>
+  <a href="images/rox8.jpg" target="_blank"><img src="images/rox8.jpg" alt="pes"></a>
+</div> -->
+
+
+
+    </main>
+
+    <footer>
+      <!--Patička obsahuje kontakt, adresu a logo s 50% průhledností,
+        Já bych ještě chtěla zkusit přidat odkaz na fb a spol.. třeba nakreslit jednoduché ikony s proklikem na mé sítě :) -->
+
+      <!--a nakonec copyright-->
+      <div class="footer-row">
+
+        <div class="footer-logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+
+        <div class="foot-contact">
+          <p><span>kontakt:</span><br>
+            fake@mail.cz
+          </p>
+          <div class="vl"></div>
+          <p><span>adresa:</span><br>
+            Severojižní 123<br>
+            Praha 1<br>
+            100 00<br>
+          </p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fab fa-twitter icons-footer"></i>
+        <i class="fab fa-facebook-f icons-footer"></i>
+        <i class="fab fa-instagram icons-footer"></i>
+        <i class="fas fa-envelope icons-footer"></i>
+      </div>
+      <div class="copyright">
+        &copy;2020 Canistherapy needed
+      </div>
+
+
+    </footer>
+
+
+  </div>
+  </div>
+</body>
+
+</html>

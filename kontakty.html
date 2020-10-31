@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--Tady to seobjevuje na liště v prohlížeči-->
+  <title>Kontakt-Canistherapy needed by An</title>
+
+  <!--odkaz na dokument s CSS-->
+
+  <link rel="stylesheet" type="text/css" href="css/styly.css">
+  <link rel="stylesheet" type="text/css" href="css/kontaktystyl.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/70a3c05b29.js"></script>
+
+</head>
+
+
+
+<body>
+  <div class="content">
+    <!--tady by měla být hlavička obsahující logo a popis stránky-->
+    <header class="bcg-img">
+      <div class="up-header">
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="description-header">
+          <h1>Canistherapy needed</h1>
+          <p>Vše co potřebujete k vašemu psychickému zdraví je možná pes.</p>
+        </div>
+      </div>
+      <!--menu obsahující tlačítka, která po najetí mění barvu
+        celkem 4stránky Úvod, galerie, kontakty, kalendář-->
+      <nav>
+        <ul class=navbar-list>
+          <li><a href="uvod.html">Úvod</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="kontakty.html">Kontakty</a></li>
+          <li><a href="kalendar.html">Kalendář</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--tělo s popisem-->
+    <main>
+      <h2>Kontakty</h2>
+      <hr>
+      <section>
+        <div class="contacts">
+          <p> <strong>Telefon:</strong> +420 123 456 789</p>
+          <p><strong>E-mail:</strong>
+            <span title="To byl Jendy nápad?">fakmail@biomrd.cz</span>
+            <!--bublina co se objeví při přejetí myší-->
+          </p>
+
+          <p>
+            <strong>Adresa:</strong> <br>
+            Severojižní 123<br>
+            Praha 1<br>
+            100 00<br>
+            Praha
+          </p>
+        </div>
+        <div class="contactform">
+          <hr>
+          <form class="messageform" action="nefunkcni.html" method="post">
+            <ul>
+              <li>
+                <label for="name">Jméno:</label>
+                <input type="text" id="name" name="user_name">
+              </li>
+              <li>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="user_email">
+              </li>
+              <li>
+                <label for="msg">Vaše zpráva:</label>
+                <textarea id="msg" name="user_message"> Tohle ještě nefunguje.</textarea>
+              </li>
+              <li class="button">
+              <button type="submit">poslat</button>
+              </li>
+            </ul>
+          </form>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!--Patička obsahuje kontakt, adresu a logo s 50% průhledností,
+        Já bych ještě chtěla zkusit přidat odkaz na fb a spol.. třeba nakreslit jednoduché ikony s proklikem na mé sítě :) -->
+
+      <!--a nakonec copyright-->
+      <div class="footer-row">
+
+        <div class="footer-logo">
+          <a href="index.html">
+            <img class="logo-img" src="images/logo.jpg" alt="logo"></a>
+        </div>
+
+        <div class="foot-contact">
+          <p><span>kontakt:</span><br>
+            fake@mail.cz
+          </p>
+          <div class="vl"></div>
+          <p><span>adresa:</span><br>
+            Severojižní 123<br>
+            Praha 1<br>
+            100 00<br>
+          </p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fab fa-twitter icons-footer"></i>
+        <i class="fab fa-facebook-f icons-footer"></i>
+        <i class="fab fa-instagram icons-footer"></i>
+        <i class="fas fa-envelope icons-footer"></i>
+      </div>
+      <div class="copyright">
+        &copy;2020 Canistherapy needed
+      </div>
+
+
+    </footer>
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>

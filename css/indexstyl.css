@@ -1,0 +1,17 @@
+
+.zadani{
+  display: flex;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.zadani>a>img{
+  max-width:300px;
+padding: 0 2px;
+}
+
+.mujweb{
+  font-weight: bold;
+  color: #7ea04d;
+}
