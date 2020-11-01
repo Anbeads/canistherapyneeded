@@ -32,3 +32,10 @@ table {
 .leden {
   color: #335d2d;
 }
+
+@media (max-width: 743px) {
+  .weekdays {
+    font-size: 0.5em;
+    visibility: hidden;
+  }
+}
