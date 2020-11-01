@@ -1,0 +1,41 @@
+.calendar {
+  text-align: center;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #335d2d;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  padding: 0 5px;
+}
+
+table {
+  border: 1px solid #335d2d;
+  margin: 20px auto;
+}
+
+.prosinec {
+  opacity: 0.5;
+}
+
+.vikend {
+  color: #fe9801;
+}
+
+.leden {
+  color: #335d2d;
+}
+
+@media (max-width: 743px) {
+  .weekdays {
+    font-size: 0.5em;
+    visibility: hidden;
+  }
+}
